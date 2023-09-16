@@ -1,0 +1,62 @@
+不指定字段，一次插入一行，并指定所有行
+insert into a1 values(值1，值2，值3)；；
+指定字段插入，一次性插入一行，并指定插入列
+insert into a1 (字段1，字段2，字段3）valuse(值1，值2，值3)；
+不指定字段，一次添加多条记录
+insert into a1 values(值1，值2 ，值3)，（值1，值2，值3）；
+指定字段插入，一次性添加多条记录
+insert into a1 (字段1，字段2，字段3) values(值1，值2，值3)，（值1，值2，值3）；
+insert into a1 values
+insert into a1 values
+niset into  a1 values
+
+
+更新所有行
+update from 字段名=值，字段名=值，。。。；
+更新满足条件的行
+update  表 set 字段名=值，字段名=值，。。。 where 条件；
+update 表 set 字段名=值 ，字段名=值,。。。where 条件；
+update 表 set 字段名=值，字段名= 值，。。。shere 条件；
+
+删除表中满足条件的行
+delete from 表名 where 条件；
+delete from 表名 where 条件；
+
+删除表中所有数据，主键自增序列不清零
+delete from 表名；
+delete from 表名；
+
+清空表数据；主键自增序列不清理
+TRUNCATE TABLE 表名；
+TRUNCATE TABLE 表名；
+TRUNCATE TABLE 表名；
+
+查看当前数据库中已有的数据表
+show table；
+show table；
+
+查看指定表结构
+desc 表名；
+desc 表名；
+desc 表名；
+
+修改指定表名称
+RENAME TABLE 表名 T0 新表名；
+RENAME TABLE 表名 T0 新表名； 
+
+删除指定的数据表
+DROP TABLE 表名；
+DROP TABLE 表名；
+
+
+修改表字段
+ALTER TABLE 表名 CHANGE 旧列名 新列名 类型（长度）约束；
+ALTER TABLE 表名 CHANGE 旧列名 新列名 类型 （长度）约束；
+
+删除表字段
+ALTER TABLE 表名 DROP 列名；
+ALTER TABLE 表名 DROP 列名；
+
+
+
+
